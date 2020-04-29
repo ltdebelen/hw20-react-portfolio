@@ -8,56 +8,44 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+              src="./images/universal.jpg"
               alt="avatar"
               className="avatar-img"
             />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Front End Developer</h1>
 
               <hr />
 
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
+                HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express |
+                MongoDB
               </p>
 
               <div className="social-links">
-                {/* LinkedIn */}
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/lawrence-adrian-de-belen-896ab8155/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
-                {/* Github */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/ltdebelen"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
-                {/* Freecodecamp */}
                 <a
-                  href="http://google.com"
+                  href="https://drive.google.com/open?id=1Es6r_q3paM6N3z1tXBEOCvaWXzfzfUzm"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
-
-                {/* Youtube */}
-                <a
-                  href="http://google.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
+                  <i className="fa fa-share-alt-square" aria-hidden="true" />
                 </a>
               </div>
             </div>
