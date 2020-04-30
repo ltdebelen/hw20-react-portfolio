@@ -39,13 +39,7 @@
 
 .projects-grid {
   display: flex;
-}
-
-/* Resume Page css */
-.resume-right-col {
-  background: #27221f;
-  color: white;
-  padding: 2em;
+  justify-content: center;
 }
 
 /* contact page css */
@@ -124,7 +118,7 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
