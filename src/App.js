@@ -13,7 +13,7 @@ class App extends Component {
             className="header-color"
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                MyPortfolio
+                LDB <i className="fa fa-user"></i>
               </Link>
             }
             scroll
@@ -27,7 +27,7 @@ class App extends Component {
           <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                MyPortfolio
+                LDB <i className="fa fa-user"></i>
               </Link>
             }
           >

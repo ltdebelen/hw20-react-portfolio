@@ -7,18 +7,46 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>MyName</h2>
+            <h2>Lawrence De Belen</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src="./images/universal.jpg"
               alt="avatar"
               style={{ height: "250px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                lineHeight: "2em",
+              }}
+            >
+              Software Developer with experience in creating websites and web
+              applications flexible to client needs.
+            </p>
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                lineHeight: "2em",
+              }}
+            >
+              Graduated Cum Laude with a Bachelor’s Degree in Information
+              Technology and recently earned a certificate for Full Stack Web
+              Development at the University of Kansas Edwards campus.
+            </p>
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                lineHeight: "2em",
+              }}
+            >
+              Proficient in web technologies including HTML, CSS, JavaScript and
+              the MERN stack. Strong problem solving skills and experience in
+              working on a fast paced environment.
             </p>
           </Cell>
           <Cell col={6}>
@@ -32,16 +60,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    (123) 456-7890
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-fax" aria-hidden="true" />
-                    (123) 456-7890
+                    (913) 401-5025
                   </ListItemContent>
                 </ListItem>
 
@@ -50,16 +69,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    someone@example.com
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    MySkypeID
+                    ltdebelen@gmail.com
                   </ListItemContent>
                 </ListItem>
               </List>

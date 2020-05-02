@@ -5,7 +5,7 @@ import Headings from "./Headings";
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <div style={{ textAlign: "center" }}>
         <Grid>
           <Cell className="resume-right-col" col={12}>
             <h2>About</h2>
@@ -58,8 +58,6 @@ class Resume extends Component {
               heading="CONTACT INFO:"
               value="Email: ltdebelen@gmail.com"
             />
-
-            <hr style={{ borderTop: "3px solid #e22947" }} />
           </Cell>
         </Grid>
       </div>
