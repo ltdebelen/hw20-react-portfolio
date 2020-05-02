@@ -53,11 +53,6 @@ class Resume extends Component {
                 </a>
               }
             />
-
-            <Headings
-              heading="CONTACT INFO:"
-              value="Email: ltdebelen@gmail.com"
-            />
           </Cell>
         </Grid>
       </div>
